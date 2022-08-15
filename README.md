@@ -48,21 +48,21 @@ This roadmap at first won't be a stone written, step-by-step features to be adde
 - Session 
 - Player Ban
 - Information Sharing
--- Through notification/socket, DM can send a Handouts to all players to be received in its apps
+  - Through notification/socket, DM can send a Handouts to all players to be received in its apps
 
 #### System modules
 - Import
 - Creation
--- Name, version, template sheet and abilities
+  - Name, version, template sheet and abilities
 - Editting
 - Sharing
--- Way to export (as JSON) to be importted by others
+  - Way to export (as JSON) to be importted by others
 
 #### Character Sheet
 - Creation (both DMs and Players)
--- Using Room's System module template
+  - Using Room's System module template
 - Editting (Players by App, DMs by Web Manager)
--- Updating through Socket
+  - Updating through Socket
 - Deletion (by owner)
 
 
