@@ -30,10 +30,10 @@ Now, I'm seeing myself as sufficiently knowledgeable to try out and make it by m
 
 ## Technologies
 
-- Backend: Typescript Nodejs + AdonisJS
+- Backend: Typescript Nodejs + Nest.js
 - Web Frontend: Typescript React with Vite
-- Mobile App: React Native OR Flutter (not decided yet)
-- Database: MongoDB (Probably)
+- Mobile App: Flutter
+- Database: PostgreSQL
 
 ## ROADMAP
 
