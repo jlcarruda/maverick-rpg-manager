@@ -2,6 +2,8 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class UsersService {
+  //TODO: Conectar com BD
+  //TODO: Fazer consulta
   private readonly users = [
     {
       id: 1,
