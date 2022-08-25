@@ -8,9 +8,16 @@ import { AuthModule } from './auth/auth.module';
 import { UsersService } from './users/users.service';
 import { UsersModule } from './users/users.module';
 import { AuthController } from './auth/auth.controller';
+import { DatabaseModule } from './database/database.module';
 
 @Module({
-  imports: [TerminusModule, ConfigModule.forRoot(), AuthModule, UsersModule],
+  imports: [
+    TerminusModule,
+    ConfigModule.forRoot(),
+    AuthModule,
+    UsersModule,
+    DatabaseModule,
+  ],
   controllers: [AppController, HealthController, AuthController],
   providers: [AppService, UsersService],
 })
